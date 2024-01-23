@@ -1,6 +1,6 @@
 <h1 align="center">百度云非会员批量上传插件</h1>
 
-<div align="center">
+
 
 支持非会员上传超过500个文件的Chrome浏览器插件
 
@@ -8,11 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-</div>
 
-
-
-# 
 
 ## 简介
 

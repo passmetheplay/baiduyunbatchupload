@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            width: 260px; /* 进一步减小宽度 */
+        }
+        h3 {
+            color: #333;
+            margin-bottom: 5px; /* 调整边距 */
+            font-size: 16px; /* 减小字体大小 */
+        }
+        #showUploadToolbarButton {
+            padding: 6px 12px; /* 减小内边距 */
+            border: none;
+            border-radius: 4px;
+            background-color: #4A90E2;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 12px; /* 减小字体大小 */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 微调阴影效果 */
+            margin-bottom: 15px; /* 按钮下方留出空间 */
+        }
+        #showUploadToolbarButton:hover {
+            background-color: #357ABD;
+        }
+        .description {
+            text-align: center;
+            font-size: 12px; /* 介绍文字的字体大小 */
+            color: #666;
+            max-width: 80%; /* 限制最大宽度 */
+        }
+    </style>
+</head>
+<body>
+<h5></h5>
+<button id="showUploadToolbarButton">百度云页面显示上传工具栏</button>
+<p class="description">
+    欢迎使用百度云批量上传工具，请前往百度云我的文件页面最上面的工具栏中中上传文件或文件夹。
+</p>
+<script src="popup.js"></script>
+</body>
+</html>
