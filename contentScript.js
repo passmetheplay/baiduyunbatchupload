@@ -241,7 +241,7 @@ function createActionButton(text, bgColor, hoverColor, textColor,marginLeft) {
 function handleFileBatchUpload(files, fileInfoText, batchProgressText, totalProgressText) {
     uploadedFilesCount = 0;
     totalFiles = files.length;
-    var batchSize = 5;
+    var batchSize = 499;
     var totalBatches = Math.ceil(totalFiles / batchSize);
 
     if (totalFiles > 0) {
@@ -268,7 +268,7 @@ function handleFileBatchUpload(files, fileInfoText, batchProgressText, totalProg
 
 
 function checkUploadCompletion(callback) {
-    let timeout = 60000; // 超时时间，例如60秒
+    let timeout = 300000; // 5分钟的超时时间，以毫秒为单位
     let startTime = Date.now();
 
     let interval = setInterval(function() {
