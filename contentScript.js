@@ -39,7 +39,7 @@ function showUploadToolbar() {
 
 function createAndInsertUploadButton() {
     console.log('plugin start createAndInsertUploadButton');
-    var uploadDiv = document.createElement('div');
+    let uploadDiv = document.createElement('div');
     uploadDiv.id = 'uploadDivId'; // 设置上传工具栏div的ID
     uploadDiv.style.padding = '5px';
     uploadDiv.style.backgroundColor = '#E8F4FC';
@@ -57,8 +57,9 @@ function createAndInsertUploadButton() {
 
 
     uploadButton = createButton('上传文件', 'fa-upload', '#4A90E2', '#397ab9'); // 蓝色按钮，深蓝色悬停效果
-    var hiddenFileInput = createHiddenInput(false);
+    let hiddenFileInput = createHiddenInput(false);
     uploadButton.addEventListener('click', function() {
+        console.log('uploadButton click')
         if (isValidBaiduYunDirectory(window.location.href)) {
             hiddenFileInput.click();
             updateCurrentDirectory();
@@ -70,7 +71,7 @@ function createAndInsertUploadButton() {
     });
 
     uploadFolderButton = createButton('上传文件夹', 'fa-folder', '#4A90E2', '#397ab9'); // 同上
-    var hiddenFolderInput = createHiddenInput(true);
+    let hiddenFolderInput = createHiddenInput(true);
     uploadFolderButton.addEventListener('click', function() {
         if (isValidBaiduYunDirectory(window.location.href)) {
             hiddenFolderInput.click();
@@ -194,7 +195,7 @@ function createButton(text, iconClass, color, hoverColor) {
 }
 
 function createHiddenInput(isFolder) {
-    var input = document.createElement('input');
+    let input = document.createElement('input');
     input.type = 'file';
     input.multiple = true;
     input.style.display = 'none';
@@ -205,7 +206,7 @@ function createHiddenInput(isFolder) {
 }
 
 function createInfoText(id, text) {
-    var span = document.createElement('span');
+    let span = document.createElement('span');
     span.id = id;
     span.textContent = text;
     span.style.marginLeft = '20px';
@@ -214,7 +215,7 @@ function createInfoText(id, text) {
 }
 
 function createActionButton(text, bgColor, hoverColor, textColor,marginLeft) {
-    var button = document.createElement('button');
+    let button = document.createElement('button');
     button.textContent = text;
     button.style.padding = '5px 8px';
     button.style.backgroundColor = bgColor;
@@ -241,7 +242,7 @@ function createActionButton(text, bgColor, hoverColor, textColor,marginLeft) {
 function handleFileBatchUpload(files, fileInfoText, batchProgressText, totalProgressText) {
     uploadedFilesCount = 0;
     totalFiles = files.length;
-    var batchSize = 499;
+    var batchSize = 299;
     var totalBatches = Math.ceil(totalFiles / batchSize);
 
     if (totalFiles > 0) {
