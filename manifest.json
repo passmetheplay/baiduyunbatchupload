@@ -1,16 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Batch Upload to Baidu Cloud",
-  "description": "这款Chrome扩展程序专为提升您在百度云上的文件管理效率而设计，允许您轻松批量上传文件到您的百度云账户。无论您是否是百度云的会员，都可以突破单次上传500个文件的限制，让文件管理变得更加高效便捷。现在就享受无缝批量上传的便利吧！",
+  "name": "百度网盘非会员批量上传",
+  "description": "支持百度网盘一次性上传大于500个文件，非会员的使用批量上传大量文件工具",
   "version": "1.0",
   "permissions": [
-    "activeTab",
-    "storage"
   ],
   "action": {
     "default_popup": "popup.html"
   },
-  "background": {
+  "background":
+  {
     "service_worker": "background.js"
   },
   "content_scripts": [
