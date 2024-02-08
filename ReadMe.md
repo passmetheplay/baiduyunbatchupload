@@ -10,13 +10,17 @@
 
 
 
-https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/7f0f0e39-bbd5-42d9-834c-0980bcfe408e
+
 
 
 
 ## 简介
 
 这是一个用于百度云的浏览器插件，旨在解决非会员用户一次只能上传500个文件的限制。它允许用户一次性无限制地上传大于500个文件，提供了更便捷的文件上传体验。
+
+
+https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/cbbfd8ff-acdd-427b-a44a-d700ed51d04c
+
 
 ## 功能
 
