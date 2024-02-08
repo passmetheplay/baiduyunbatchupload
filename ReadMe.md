@@ -42,7 +42,7 @@ https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/cbbfd8ff-a
 您可以从以下链接下载和安装插件：
 
 1. [下载插件](https://github.com/passmetheplay/baiduyunbatchupload/releases/download/1.0.0/baiduyunbatchupload.zip)  `新版本的Chrome不支持.crx后缀安装。`
-   - 离线下载： 下载baiduyunbatchupload.zip后，打开chrome浏览器，输入chrome://extensions/；
+   - 离线下载： 下载baiduyunbatchupload.zip并解压后，打开chrome浏览器，输入chrome://extensions/；
    - 打开开发者模式：插件管理页面右上角开发者模式开启；
       ![本地图片](screenshot1.png "本地图片标题")
    - 点击“加载已解压的扩展”，选择下载的baiduyunbatchupload.zip文件夹即可。
