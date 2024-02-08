@@ -8,7 +8,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-https://youtu.be/ia94a8WcYLU
+
+
+https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/7f0f0e39-bbd5-42d9-834c-0980bcfe408e
+
+
 
 ## 简介
 
