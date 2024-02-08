@@ -22,8 +22,9 @@
 
 ## 如何使用
 
-1. 安装插件：可以通过 [Chrome商店](https://chromewebstore.google.com/detail/jdlhackplclofcomhipgfdocncamjjna?hl=zh-CN&authuser=2) 链接下载，也可以使用离线文件安装。
-   2. 离线安装： 下载baiduyunbatchupload.zip后，打开chrome浏览器，输入chrome://extensions/，打开开发者模式，然后“加载已解压的扩展”即可，具体见下面v。
+1. 安装插件：
+   - 可以通过 [Chrome商店](https://chromewebstore.google.com/detail/jdlhackplclofcomhipgfdocncamjjna?hl=zh-CN&authuser=2) 链接下载，也可以使用离线文件安装。
+   - 离线安装： 下载baiduyunbatchupload.zip后，打开chrome浏览器，输入chrome://extensions/，打开开发者模式，然后“加载已解压的扩展”即可，具体见下面。
 3. 打开百度云我的文件，然后打开到你需要上传文件的目录。
 4. 点击右上角的百度云批量上传插件，然后点击'显示上传工具栏',上传工具栏会显示在百度云页面的顶部。
 5. 点击'选择文件/文件夹'按钮，选择需要上传的文件，然后点击'开始'按钮，上传文件。
@@ -32,12 +33,13 @@
 
 您可以从以下链接下载和安装插件：
 
-1. [下载插件](#)
-   2. 离线下载： 下载baiduyunbatchupload.zip后，打开chrome浏览器，输入chrome://extensions/；
-   3. 打开开发者模式：插件
-      ![本地图片](icon.png "本地图片标题")
-
-   4. 点击“加载已解压的扩展”，选择下载的baiduyunbatchupload.zip文件夹即可。
+1. [下载插件](#)  `新版本的Chrome不支持.crx后缀安装。`
+   - 离线下载： 下载baiduyunbatchupload.zip后，打开chrome浏览器，输入chrome://extensions/；
+   - 打开开发者模式：插件管理页面右上角开发者模式开启；
+      ![本地图片](screenshot1.png "本地图片标题")
+   - 点击“加载已解压的扩展”，选择下载的baiduyunbatchupload.zip文件夹即可。
+     ![本地图片](screenshot2.png "本地图片标题")
+     ![本地图片](screenshot3.png "本地图片标题")
 2. [Chrome商店](https://chromewebstore.google.com/detail/jdlhackplclofcomhipgfdocncamjjna?hl=zh-CN&authuser=2) 链接下载安装。
 
 ## 兼容性
