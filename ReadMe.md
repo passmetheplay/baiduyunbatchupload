@@ -32,7 +32,7 @@ https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/cbbfd8ff-a
 
 1. 安装插件：
    - 可以通过 [Chrome商店](https://chromewebstore.google.com/detail/jdlhackplclofcomhipgfdocncamjjna?hl=zh-CN&authuser=2) 链接下载，也可以使用离线文件安装。
-   - 离线安装： 下载[baiduyunbatchupload.zip](https://github.com/passmetheplay/baiduyunbatchupload/releases/download/1.0.0/baiduyunbatchupload.zip)后，打开chrome浏览器，输入chrome://extensions/，打开开发者模式，然后“加载已解压的扩展”即可，具体见下面。
+   - 离线安装： 下载[baiduyunbatchupload.zip](https://github.com/passmetheplay/baiduyunbatchupload/releases/download/1.0.0/baiduyunbatchupload.zip) 或查看最新[Release](https://github.com/passmetheplay/baiduyunbatchupload/releases) ，打开chrome浏览器，输入chrome://extensions/，打开开发者模式，然后“加载已解压的扩展”即可，具体见下面。
 3. 打开百度云我的文件，然后打开到你需要上传文件的目录。
 4. 点击右上角的百度云批量上传插件，然后点击'显示上传工具栏',上传工具栏会显示在百度云页面的顶部。
 5. 点击'选择文件/文件夹'按钮，选择需要上传的文件，然后点击'开始'按钮，上传文件。
@@ -41,7 +41,7 @@ https://github.com/passmetheplay/baiduyunbatchupload/assets/143151096/cbbfd8ff-a
 
 您可以从以下链接下载和安装插件：
 
-1. [下载插件](https://github.com/passmetheplay/baiduyunbatchupload/releases/download/1.0.0/baiduyunbatchupload.zip)  `新版本的Chrome不支持.crx后缀安装。`
+1. [直接下载插件](https://github.com/passmetheplay/baiduyunbatchupload/releases/download/1.0.0/baiduyunbatchupload.zip) 或查看最新[Release](https://github.com/passmetheplay/baiduyunbatchupload/releases)  `新版本的Chrome不支持.crx后缀安装。`
    - 离线下载： 下载baiduyunbatchupload.zip并解压后，打开chrome浏览器，输入chrome://extensions/；
    - 打开开发者模式：插件管理页面右上角开发者模式开启；
       ![本地图片](screenshot1.png "本地图片标题")
