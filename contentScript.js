@@ -281,7 +281,7 @@ function checkUploadCompletion(callback) {
             clearInterval(interval);
             callback(); // 执行下一批上传
         }
-    }, 1000); // 每秒检查一次
+    }, 24 * 60 * 60 * 1000); // 每秒检查一次
 }
 
 function simulateFileSelectionAndUpload(files, batchProgressText, totalProgressText, currentBatch, totalBatches) {
